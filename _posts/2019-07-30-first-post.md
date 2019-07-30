@@ -13,18 +13,16 @@ Okay, Let's start with the code
 
 there is a code. And I'm going to split this code and explain every part.
 
----
+
 
 
 
 
 #include <stdio.h>
 #define LEN 9
-
 /*PART.1*/  
 void quick_sort(int num[],int start, int end);
 void tracer(int num[],int len);
-
 /*PART.3*/ 
 void quick_sort(int num[],int start, int end)
 {
@@ -59,8 +57,7 @@ void quick_sort(int num[],int start, int end)
         quick_sort(num,start,j-1);
         quick_sort(num,j+1,end);
     }
-}
-  
+} 
 void tracer(int num[],int len)
 {
     int i;
@@ -70,7 +67,6 @@ void tracer(int num[],int len)
     }
     printf("\n\n");
 }
-
 /*PART.2*/ 
 int main(void)
 {    
@@ -81,7 +77,7 @@ int main(void)
 
 
 
----
+
 
 PART1.
 #include <stdio.h>
