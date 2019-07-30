@@ -9,7 +9,7 @@ To the record,
 Definition 
 "Quicksork" is one of functions to make arrangement a given number array. Usually, people use this function to make ascending order.
 
-Okay, Let's start with the code
+Okay, Let's start with the code.
 
 there is a code. And I'm going to split this code and explain every part.
 
