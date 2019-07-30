@@ -14,6 +14,10 @@ Okay, Let's start with the code
 there is a code. And I'm going to split this code and explain every part.
 
 ---
+
+
+
+
 #include <stdio.h>
 #define LEN 9
 
@@ -73,6 +77,10 @@ int main(void)
     int testArr[] = {485,241,454,325,452,685,498,890,281};
     quick_sort(testArr, 0, LEN-1); 
 }
+
+
+
+
 ---
 
 PART1.
